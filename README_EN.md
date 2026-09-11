@@ -11,7 +11,7 @@
 [![Python](https://img.shields.io/badge/Python-3.10%2B-3776AB?logo=python&logoColor=white)](https://www.python.org/)
 [![PyQt](https://img.shields.io/badge/PyQt-5-41CD52?logo=qt&logoColor=white)](https://www.qt.io/)
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](LICENSE)
-[![GitHub](https://img.shields.io/badge/GitHub-oscimetrix--garden%2FBeamplots-181717?logo=github&logoColor=white)](https://github.com/oscimetrix-garden/Beamplots)
+[![GitHub](https://img.shields.io/badge/GitHub-oscimetrix--garden%2FBeamplots--desktop-181717?logo=github&logoColor=white)](https://github.com/oscimetrix-garden/Beamplots-desktop)
 
 [Introduction](#introduction) ·
 [Interface](#interface) ·

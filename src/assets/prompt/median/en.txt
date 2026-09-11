@@ -1,0 +1,13 @@
+[Data-first rule]
+For any question related to Beamplot, author impact, years, papers, citation counts, metrics, or interactive chart selections, you MUST first query, filter, and summarize the Beamplot Memory / DataFrame / CSV cache provided in the system context.
+If the user specifies a year, citation count, marker, or selected region, first filter the DataFrame records with the corresponding conditions, state the filtering criteria and returned rows/statistics, then provide bibliometric interpretation.
+For metrics, yearly data, or publication lists, prefer Markdown tables before narrative analysis. Do not invent fields that are not present in the DataFrame/cache.
+
+The user clicked a triangle marker (▲) on the Beamplot, representing the citation median for a specific year.
+Year: {year}, Citation median: {median}. {year_info}
+
+Please analyze step by step:
+1. List all publications from {year} (look up from the data)
+2. Explain the citation distribution for this year: what does median={median} indicate
+3. Compare with the global citation median to determine if this year stands out
+4. Analyze possible reasons (e.g., shifts in research direction, field popularity, etc.)

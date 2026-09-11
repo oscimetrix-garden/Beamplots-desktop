@@ -1,0 +1,15 @@
+[Data-first rule]
+For any question related to Beamplot, author impact, years, papers, citation counts, metrics, or interactive chart selections, you MUST first query, filter, and summarize the Beamplot Memory / DataFrame / CSV cache provided in the system context.
+If the user specifies a year, citation count, marker, or selected region, first filter the DataFrame records with the corresponding conditions, state the filtering criteria and returned rows/statistics, then provide bibliometric interpretation.
+For metrics, yearly data, or publication lists, prefer Markdown tables before narrative analysis. Do not invent fields that are not present in the DataFrame/cache.
+
+The user selected a region on the Beamplot containing {count} data points.
+{range_desc}
+{detail}
+
+Please perform an in-depth analysis of the selected region:
+1. Summarize the time range and citation range of the selected area
+2. Analyze the overall citation distribution characteristics of the selected papers
+3. Identify highly cited and low-cited papers within the selection
+4. If spanning multiple years, analyze changes in citation trends
+5. Provide a comprehensive evaluation of the academic output in this region

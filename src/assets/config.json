@@ -1,0 +1,92 @@
+{
+    "language": "en_US",
+    "openai_proxy": "",
+    "multi_model_chat": {
+        "models": [
+            "zhipu_chat",
+            "deepseek_chat"
+        ],
+        "summary_chat": "deepseek_chat"
+    },
+    "llm_providers": {
+        "deepseek": {
+            "base_url": "https://api.deepseek.com",
+            "models": [
+                "deepseek-v4-flash",
+                "deepseek-v4-pro"
+            ],
+            "streaming": true,
+            "temperature": 70,
+            "max_tokens": 4096,
+            "timeout": 300,
+            "verified": true
+        },
+        "openai": {
+            "base_url": "https://api.openai.com/v1",
+            "models": [],
+            "streaming": true,
+            "temperature": 70,
+            "max_tokens": 4096,
+            "timeout": 300,
+            "verified": false
+        },
+        "zhipu": {
+            "base_url": "https://open.bigmodel.cn/api/paas/v4",
+            "models": [
+                "glm-4-plus"
+            ],
+            "streaming": false,
+            "temperature": 70,
+            "max_tokens": 4096,
+            "timeout": 300
+        },
+        "siliconflow": {
+            "base_url": "https://api.siliconflow.cn/v1",
+            "models": [],
+            "streaming": true,
+            "temperature": 70,
+            "max_tokens": 4096,
+            "timeout": 300,
+            "verified": false
+        },
+        "custom": {
+            "base_url": "",
+            "models": [],
+            "streaming": true,
+            "temperature": 70,
+            "max_tokens": 4096,
+            "timeout": 300,
+            "verified": false
+        },
+        "anthropic": {
+            "base_url": "https://api.anthropic.com",
+            "models": [],
+            "streaming": true,
+            "temperature": 70,
+            "max_tokens": 4096,
+            "timeout": 300,
+            "verified": false
+        },
+        "gemini": {
+            "base_url": "https://generativelanguage.googleapis.com/v1beta",
+            "models": [],
+            "streaming": true,
+            "temperature": 70,
+            "max_tokens": 4096,
+            "timeout": 300,
+            "verified": false
+        },
+        "qwen": {
+            "base_url": "https://dashscope.aliyuncs.com/compatible-mode/v1",
+            "models": [],
+            "streaming": true,
+            "temperature": 70,
+            "max_tokens": 4096,
+            "timeout": 300,
+            "verified": false
+        }
+    },
+    "output_language": "auto",
+    "rag_search_num": 10,
+    "theme": "light"
+}

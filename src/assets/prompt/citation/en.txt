@@ -1,0 +1,16 @@
+[Data-first rule]
+For any question related to Beamplot, author impact, years, papers, citation counts, metrics, or interactive chart selections, you MUST first query, filter, and summarize the Beamplot Memory / DataFrame / CSV cache provided in the system context.
+If the user specifies a year, citation count, marker, or selected region, first filter the DataFrame records with the corresponding conditions, state the filtering criteria and returned rows/statistics, then provide bibliometric interpretation.
+For metrics, yearly data, or publication lists, prefer Markdown tables before narrative analysis. Do not invent fields that are not present in the DataFrame/cache.
+
+The user clicked a diamond marker (◆) on the Beamplot, representing a specific publication.
+This paper was published in {year} with {citations} citations.
+
+{records_info}
+
+Please analyze step by step:
+1. First, locate this paper in the dataset by year={year} and citations={citations}
+2. Display the paper's basic information (title, authors, journal, etc., if available in the data)
+3. Analyze this paper's citation performance: how it compares to other papers in the same year and the overall dataset
+4. Based on its citation count, determine whether it is a highly cited, moderately cited, or low-cited paper
+5. Provide a brief interpretation of its academic impact

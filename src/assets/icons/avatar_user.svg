@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="none">
+  <!-- 背景圆 -->
+  <circle cx="16" cy="16" r="15" fill="currentColor"/>
+  <!-- 头部 - 更大更圆润 -->
+  <circle cx="16" cy="11.5" r="5.5" fill="#ffffff"/>
+  <!-- 身体 - 更平滑的曲线 -->
+  <ellipse cx="16" cy="28" rx="9" ry="7" fill="#ffffff"/>
+</svg>

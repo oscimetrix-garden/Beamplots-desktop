@@ -1,0 +1,30 @@
+﻿# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.env
+.env.*
+.pytest_cache/
+
+# Local secrets and runtime data
+src/assets/api_keys.json
+src/assets/cache/
+src/assets/history.json
+
+# IDE / OS
+.idea/
+.vscode/
+*.swp
+.DS_Store
+Thumbs.db
+
+# Build artifacts
+dist/
+build/
+
+# Local notes and scratch files
+对照清单.md
+tmp_*
+*.log
